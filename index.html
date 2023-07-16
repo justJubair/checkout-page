@@ -16,9 +16,10 @@
 <body>
     <main>
         <div class="main-container">
+            <!-- form container -->
             <div class="checkout-form-container">
                 <h1 class="title">Checkout</h1>
-                    <div class="form-one-container">
+                    <div class="form-container">
                         <h3>Contact information</h3>
                         <form id="form-one">
                             <div class="input-box">
@@ -48,11 +49,12 @@
                             <div class="flex">
                                 <div class="input-box">
                                     <label for="">Country</label>
-                                    <select id="country">
-                                        <option value="USA">USA</option>
-                                        <option value="Europe">Europe</option>
-                                        <option value="asia">Asia</option>
-                                    </select>
+                                    <input placeholder="Your country.." class="country" list="country" name="country">
+                                    <datalist id="country">
+                                        <option value="USA">
+                                        <option value="Europe">
+                                        <option value="Asia">
+                                    </datalist>
                                 </div>
                                 <div class="input-box postal-code-box">
                                     <label for="postal code">Postal code</label>
@@ -66,9 +68,24 @@
                             <button class="btn-primary">Continue</button>
                         </form>
                     </div>
-            <div class="checkout-img-container">
-
             </div>
+            <!-- form container ends -->
+
+            <!-- image container -->
+            <div class="checkout-img-container">
+                <div class="vintage-bag">
+                    <img src="assets/photo1.png" alt="">
+                    <div class="box-content">
+                        <h3>Vintage Backbag</h3>
+                        <div class="price">
+                            <p>$54.99</p>
+                            <p>$94.99</p>
+                        </div>
+                        <input class="hide" type="number" id="quantity">
+                    </div>
+                </div>
+            </div>
+            <!-- Image container ends -->
         </div>
     </main>
 </body>

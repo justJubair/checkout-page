@@ -17,7 +17,7 @@ label {
     margin-right: 0;
 }
 
-input, select {
+input, datalist {
     padding: 1rem 15rem 1rem 1rem;
     /* width: 30%; */
     border-radius: 12px;
@@ -29,6 +29,12 @@ input, select {
     margin-top: 1rem;
 }
 
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+}
+
 /* Form related styles */
 .title {
     margin-bottom: 5rem;
@@ -38,7 +44,7 @@ input, select {
 }
 
 .checkout-form-container {
-    margin: 2rem 0 0 7rem;
+    margin-top: 3rem;
 }
 
 .form-two-title {
@@ -51,8 +57,8 @@ input, select {
 }
 
 
-#country {
-    padding: 1rem 6.5rem 1rem 1rem;
+.country {
+    padding: 1rem 0.6rem;
 }
 
 #postal-code {
@@ -83,4 +89,16 @@ input, select {
     background: #F2994A;
     color: #fff;
     border: none;
+}
+
+/* Image container Item related styles */
+
+.hide {
+    display: none;
+}
+
+.checkout-img-container {
+    border-radius: 12px;
+    background:#F2F2F2;
+    margin-top: 10rem;
 }

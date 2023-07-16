@@ -3,3 +3,18 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* shared styles */
+label, input {
+    display: block;
+}
+
+input {
+    padding: 1rem;
+    width: 30%;
+}
+
+/* Form related styles */
+.checkout-form-container {
+    margin: 2rem 0 0 7rem;
+}

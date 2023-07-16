@@ -83,12 +83,13 @@ input, datalist {
 
 /* button related styles */
 .btn-primary {
-    margin-top: 1.5rem;
+    margin: 1.5rem 0 0 20rem;
     padding: 0.8rem 2rem;
     border-radius: 12px;
     background: #F2994A;
     color: #fff;
     border: none;
+    
 }
 
 /* Image container Item related styles */
@@ -150,7 +151,7 @@ input, datalist {
     font-size: 1rem;
 }
 
-/* total amount: footer related styles */
+/* total amount*/
 .total-amount {
     margin-top: 2rem;
     padding: 2rem;
@@ -167,4 +168,75 @@ input, datalist {
     border-top: 1px solid rgb(175, 175, 175);
     border-bottom: 1px solid rgb(176, 176, 176);
     padding: 1rem 0rem;
+}
+
+.footer {
+    margin-top: 8rem;
+    padding: 1rem;
+    text-align: center;
+    color: #b0b0b0;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+
+/* Responsive design */
+
+/* Mobile devices */
+@media screen and (max-width: 576px) {
+    
+    .main-container,
+    .vintage-bag, .card, 
+    .flex
+     {
+        flex-direction: column;
+    }
+
+    .main-container {
+        flex-direction: column-reverse;
+    }
+
+    input, datalist {
+        padding: 0.8rem 1rem;
+    }
+
+    .checkout-img-container {
+        margin: 0;
+    }
+
+    .postal-code-box {
+        margin-left: 0;
+    }
+
+    .checkout-form-container {
+        padding: 1rem;
+    }
+
+    .btn-primary {
+        margin: 1rem 0 0 0;
+        padding: 0.5rem 1rem;
+    }
+
+    .checkbox {
+        width: auto;
+    }
+
+    .checkout-img-container {
+        width: 50%;
+    }
+
+    .vintage-bag, .card {
+        padding: 0.5rem;
+    }
+
+    .vintage-img {
+        width: auto;
+    }
+
+    label, input, #postal-code, .postal-code-box, .country {
+        /* display: inline; */
+        width: auto;
+    }
 }

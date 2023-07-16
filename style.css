@@ -9,12 +9,60 @@ label, input {
     display: block;
 }
 
-input {
-    padding: 1rem;
-    width: 30%;
+label {
+    color: #4F4F4F;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-right: 0;
+}
+
+input, select {
+    padding: 1rem 15rem 1rem 1rem;
+    /* width: 30%; */
+    border-radius: 12px;
+    border: 1px solid #828282;
+    margin-right: 0;
+}
+
+.input-box {
+    margin-top: 1rem;
 }
 
 /* Form related styles */
 .checkout-form-container {
     margin: 2rem 0 0 7rem;
+}
+
+.form-two-title {
+    margin-top: 5rem;
+}
+
+.flex {
+    display: flex;
+    /* justify-content: start; */
+}
+
+
+#country {
+    padding: 1rem 6.5rem 1rem 1rem;
+}
+
+#postal-code {
+    padding: 1rem;
+}
+
+.postal-code-box {
+    margin-left: 2rem;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    /* justify-content: center; */
+}
+
+.checkbox label {
+    margin-bottom: 0;
 }

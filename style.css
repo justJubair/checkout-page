@@ -102,3 +102,49 @@ input, datalist {
     background:#F2F2F2;
     margin-top: 10rem;
 }
+
+.vintage-bag, .card {
+    display: flex;
+    padding: 2rem;
+}
+
+.vintage-img {
+    border-radius: 2rem;
+    width: 35%;
+}
+
+.price{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.discount-price {
+    color: #F2994A;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.regular-price {
+    font-size: 0.9rem;
+}
+
+.box-content {
+    margin-left: 1.5rem;
+}
+
+.box-content > h3 {
+    /* margin: 2rem; */
+    /* padding: 1rem; */
+    color: #4E5150;
+}
+
+#quantity {
+    /* padding: 1rem 2rem; */
+    padding: 1rem 0.8rem;
+    /* position: relative; */
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
